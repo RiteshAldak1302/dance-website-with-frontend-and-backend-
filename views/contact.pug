@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ritesh Dance Academy-contact</title>
+    style 
+         include ../static/style.css
+         
+</head>
+<body>
+    include ../includes/header.pug
+
+    <h1 class="text">Contact Us</h1>
+<form action= "/contact", method= "post", class= "myForm">
+<input type="text"class= "myInput" name="name" placeholder="Enter your name..">
+<input type="phone" class= "myInput" name="phone" placeholder="Enter your phone no..">
+<input type="email" class= "myInput" name="email" placeholder="Enter your email..">
+<input type="text" class= "myInput" name="address" placeholder="Your address..">
+<input type="text" class= "myInput" name="concern" placeholder="Your concern..">
+<button class="btn">Submit</button>
+</form>
+include ../includes/foot.pug
+</body>
+</html>

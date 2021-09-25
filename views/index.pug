@@ -1,0 +1,48 @@
+//- index.pug
+doctype html
+html
+  head
+    title Ritesh Dance Academy
+    style
+      include ../static/style.css 
+  body
+    include ../includes/header.pug
+    
+    section#introSection
+        div Welcome to Ritesh's Dance Academy
+        div.small Eat Sleep Dance Repeat
+
+    section#missionSection
+        h2 Our Mission
+        div.card
+            h3 Dance Perfection
+            div.card-box
+                div.card-img
+                    img(src="/static/img/1.png")
+                div.card-content
+                    p This is the best dance academy of the universe
+        div.card
+            h3 Dance the way you like
+            div.card-box
+                div.card-img
+                    img(src="/static/img/2.png")
+                div.card-content
+                    p This is the best dance academy of the universe
+        div.card
+            h3 Expert Teaching
+            div.card-box
+                div.card-img
+                    img(src="/static/img/3.png")
+                div.card-content
+                    p This is the best dance academy of the universe
+
+    section#sponsorsSection
+        h2 Our Sponsors
+            img(src= "https://1000logos.net/wp-content/uploads/2017/04/Microsoft-Logo.png", alt= "Sponsor Image", class= "spImage")
+            img(src= "https://www.thebalancesmb.com/thmb/oAK-GmNh8neLQqwJR5gtIeHkMSQ=/3000x1687/smart/filters:no_upscale()/amazon-holds-news-conference-151368933-5b0740d08023b9003614e95e.jpg", alt= "Sponsor Image", class= "spImage")
+            img(src= "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqQdwbPOK9813zsYWm1G7KjzUXT83b0zy-1w& usqp=CAU", alt= "Sponsor Image", class= "spImage")
+            img(src= "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-xoSZ7FWb15H0zon7OMAHIcjcp22zp-QzsN28JjL-bR4q8O5cOMULcVd7-Yqbo7Jka0s&usqp=CAU", alt= "Sponsor Image", class= "spImage")
+
+    include ../includes/foot.pug
+    script
+      include ../static/index.js
